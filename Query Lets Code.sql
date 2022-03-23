@@ -2,7 +2,7 @@ CREATE TABLE cliente (
 	id int NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	nome varchar(100) NOT NULL,
 	data_de_nascimento date NOT NULL,
-    email varchar(100) NOT NULL
+    	email varchar(100) NOT NULL
 );
 
 CREATE TABLE dependente (
