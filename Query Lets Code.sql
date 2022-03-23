@@ -16,7 +16,7 @@ CREATE TABLE produto (
 	id int NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	codigo_de_registro_ans int NOT NULL,
 	descricao varchar(255) NOT NULL,
-	valor money NOT NULL
+	valor money NOT NULL -- number(9, 2) for oracle
 );
 
 CREATE TABLE contrato (
